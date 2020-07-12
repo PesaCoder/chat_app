@@ -1,0 +1,10 @@
+Push notifications have two parts:
+    one is notification (title and message),
+    and one is additional data. I’m going to use only the first part in this demo scope.
+
+
+======================open specific screen==========================
+In case you would like to navigate or do something
+when the user clicks on a notification instead of open the app as the default,
+consider using additional data since
+it has data payload and handle click_action: FLUTTER_NOTIFICATION_CLICK.
